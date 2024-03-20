@@ -1,0 +1,237 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "TransactionItem&StateMachine_1",
+        "SystemException&StateMachine_1",
+        "BusinessException&StateMachine_1",
+        "TransactionNumber&StateMachine_1",
+        "Config&StateMachine_1",
+        "RetryNumber&StateMachine_1",
+        "TransactionField2&StateMachine_1",
+        "TransactionField1&StateMachine_1",
+        "TransactionID&StateMachine_1",
+        "dt_TransactionData&StateMachine_1",
+        "ConsecutiveSystemExceptions&StateMachine_1",
+        "ShouldStop&Sequence_25"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_OrchestratorQueueName",
+        "in_OrchestratorQueueFolder"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/Process.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "finalreport&Sequence_1",
+        "confirmid&Sequence_1",
+        "taxid&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_TransactionItem",
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/InitAllApplications.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strUsername&Sequence_10",
+        "sstrPassword&Sequence_10"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/CloseAllApplications.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/KillAllProcesses.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "in_strArrayApp"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACME/ACME_BackToDashboard.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolpost&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_Dashurl"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACME/ACME_Access WorkItems.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "booldash&Sequence_4",
+        "boolworkitems&Sequence_8"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACME/ACME_DownloadReport.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "arrayofmonths&Sequence_6",
+        "year&Sequence_6",
+        "fullpath&Sequence_6",
+        "boolfound&Sequence_13",
+        "boolSave&Sequence_16",
+        "boolFound&Sequence_17",
+        "boolpre&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_inputpath",
+        "in_taxid"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACME/ACME_AccessDownloadReport.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolpre&Sequence_13",
+        "boolpost&Sequence_14"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACME/ACME_UploadReport.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolSelect&Sequence_3",
+        "boolpre&Sequence_2",
+        "arrayofmonths&Sequence_3",
+        "year&Sequence_3",
+        "fullpath&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "out_id",
+        "in_finalreport",
+        "in_inputpath",
+        "in_year",
+        "in_taxid"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACME/ACME_AccessUploadReport.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolpre&Sequence_2",
+        "boolpost&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACME/ACME_DetailsPage.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolworkitems&Sequence_1",
+        "arrayalldata&Sequence_1",
+        "data&Sequence_1",
+        "clientid&Sequence_1",
+        "id&Sequence_1",
+        "accountamount&Sequence_5"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "out_taxid"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACME/ACME_NavigateTo.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolworkitems&Sequence_1",
+        "booldash&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_detailsurl",
+        "in_WIID"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACME/ACME_MergeExcelSheet.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dtMonthReport&Sequence_14",
+        "fullpath&Sequence_14",
+        "dtreports&Sequence_14"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "out_FinalReport",
+        "in_inputpath",
+        "in_year",
+        "in_taxid"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACME/ACME_UpdateWorkItem.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolworkitems&Sequence_4",
+        "booldash&Sequence_13"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACME/ACME_FinalUpdateitem.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolworkitems&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_confirmid"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}
